@@ -16,16 +16,19 @@
 
    ```bash
    git clone https://github.com/ваш-логин/catalog-products.git
+   
 2.  Перейдите в директорию проекта:
 
-  ```bash
-  cd product-list
-```
+   ```bash
+   cd product-list
+   ```
 3. Установите зависимости:
 
-  ```bash
-  npm install
-```
+   ```bash
+   npm install
+   ```
+   
 4. Запустите проект:
+   
    ```bash
    npm start
