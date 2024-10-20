@@ -1,4 +1,4 @@
-# Product List
+# Catalog products
 
 ## Описание
 
@@ -15,12 +15,13 @@
 1. Склонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/ваш-логин/catalog-products.git
+   git clone https://github.com/nighteezy/catalog-products.git
+   ```
    
-2.  Перейдите в директорию проекта:
+3.  Перейдите в директорию проекта:
 
    ```bash
-   cd product-list
+   cd catalog-products
    ```
 3. Установите зависимости:
 
