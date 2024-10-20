@@ -1,0 +1,24 @@
+.search {
+  height: 48px;
+  padding: 0 16px;
+  border-radius: 8px;
+}
+
+.search,
+.search::placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.search:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+@media (max-width: 895px) {
+  .search {
+    width: 100%;
+  }
+}

@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Play";
+  src: url("./fonts/play-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Play";
+  src: url("./fonts/play-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --font-family: "Play", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 80px;
+  max-width: 1440px;
+  transition: all 0.3s ease;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 40px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1020px) {
+  .container {
+    padding: 0 10px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 5px;
   }
 }

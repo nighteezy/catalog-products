@@ -1,0 +1,19 @@
+.cart-info {
+  padding: 10px;
+  border: 1px solid #28a745;
+  border-radius: 10px;
+  background-color: #28a745;
+}
+
+.cart-info p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+@media (max-width: 895px) {
+  .cart-info {
+    width: 100%;
+  }
+}
